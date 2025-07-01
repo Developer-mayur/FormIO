@@ -1,18 +1,14 @@
-﻿using FormIOProject.Models; // ✅ Your ApplicationUser class namespace
+﻿using FormIOProject.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
-using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
-using System.Text;
-using System.Text.Encodings.Web;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -79,8 +75,6 @@ namespace FormIOProject.Areas.Identity.Pages.Account
         {
             ReturnUrl = returnUrl;
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
-
-            // Load roles for dropdown
             Roles = _roleManager.Roles.Select(r => new SelectListItem
             {
                 Value = r.Name,
@@ -104,11 +98,7 @@ namespace FormIOProject.Areas.Identity.Pages.Account
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User created a new account with password.");
-
-                    // ✅ Assign selected role
                     await _userManager.AddToRoleAsync(user, Input.Role);
-
-                    // ✅ Optional: Sign in user after registration
                     await _signInManager.SignInAsync(user, isPersistent: false);
                     return LocalRedirect(returnUrl);
                 }

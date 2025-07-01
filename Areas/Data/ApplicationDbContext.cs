@@ -4,12 +4,17 @@ using FormIOProject.Models;
 
 namespace FormIOProject.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
         }
-        public DbSet<FormIOProject.Models.FormIO> FormIO { get; set; } = default!;
+
+        // DbSets for your other entities
+    
+public DbSet<FormIOProject.Models.FormIO> FormIO { get; set; } = default!;
+
+
     }
 }
