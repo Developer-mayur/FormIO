@@ -1,8 +1,8 @@
 using System.Diagnostics;
-using Formio.Models;
+using FormIOProject.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Formio.Controllers
+namespace FormIOProject.Controllers
 {
     public class HomeController : Controller
     {

@@ -1,4 +1,4 @@
-namespace Formio.Models
+namespace FormIOProject.Models
 {
     public class ErrorViewModel
     {

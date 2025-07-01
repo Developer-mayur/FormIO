@@ -1,0 +1,69 @@
+﻿@model FormIOProject.Models.FormIO
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_LoginPartial.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>FormIO</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CreatedBy" class="control-label"></label>
+                <input asp-for="CreatedBy" class="form-control" />
+                <span asp-validation-for="CreatedBy" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModifiedBy" class="control-label"></label>
+                <input asp-for="ModifiedBy" class="form-control" />
+                <span asp-validation-for="ModifiedBy" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CreatedUtc" class="control-label"></label>
+                <input asp-for="CreatedUtc" class="form-control" />
+                <span asp-validation-for="CreatedUtc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModifiedUtc" class="control-label"></label>
+                <input asp-for="ModifiedUtc" class="form-control" />
+                <span asp-validation-for="ModifiedUtc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VersionId" class="control-label"></label>
+                <input asp-for="VersionId" class="form-control" />
+                <span asp-validation-for="VersionId" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Latest" /> @Html.DisplayNameFor(model => model.Latest)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="FormFields" class="control-label"></label>
+                <input asp-for="FormFields" class="form-control" />
+                <span asp-validation-for="FormFields" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
