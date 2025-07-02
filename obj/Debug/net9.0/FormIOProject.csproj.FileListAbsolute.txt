@@ -418,6 +418,7 @@ C:\Users\admin\Desktop\FormIO\bin\Debug\net9.0\FormIOProject.dll
 C:\Users\admin\Desktop\FormIO\bin\Debug\net9.0\FormIOProject.pdb
 C:\Users\admin\Desktop\FormIO\bin\Debug\net9.0\Azure.Core.dll
 C:\Users\admin\Desktop\FormIO\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\admin\Desktop\FormIO\bin\Debug\net9.0\Dapper.dll
 C:\Users\admin\Desktop\FormIO\bin\Debug\net9.0\Humanizer.dll
 C:\Users\admin\Desktop\FormIO\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\admin\Desktop\FormIO\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
@@ -810,10 +811,10 @@ C:\Users\admin\Desktop\FormIO\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\admin\Desktop\FormIO\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\admin\Desktop\FormIO\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\admin\Desktop\FormIO\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\admin\Desktop\FormIO\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\admin\Desktop\FormIO\obj\Debug\net9.0\FormIOPr.F5D8AF82.Up2Date
 C:\Users\admin\Desktop\FormIO\obj\Debug\net9.0\FormIOProject.dll
 C:\Users\admin\Desktop\FormIO\obj\Debug\net9.0\refint\FormIOProject.dll
 C:\Users\admin\Desktop\FormIO\obj\Debug\net9.0\FormIOProject.pdb
 C:\Users\admin\Desktop\FormIO\obj\Debug\net9.0\FormIOProject.genruntimeconfig.cache
 C:\Users\admin\Desktop\FormIO\obj\Debug\net9.0\ref\FormIOProject.dll
-C:\Users\admin\Desktop\FormIO\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

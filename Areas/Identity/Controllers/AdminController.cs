@@ -1,5 +1,6 @@
 ﻿using FormIOProject.Areas.Identity.Data;
-using FormIOProject.Models;
+using FormIOProject.Areas.Identity.Model;
+using FormIOProject.Areas.Identity.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -15,146 +16,48 @@ namespace FormIOProject.Areas.Identity.Controllers
     [Authorize(Roles = "Admin")]
     public class AdminController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        private readonly IDapper _dapper;
 
-        public AdminController(ApplicationDbContext context)
+        public AdminController(IDapper dapper)
         {
-            _context = context;
+
+            _dapper = dapper;
         }
 
         // GET: Identity/Admin
-        public async Task<IActionResult> Index()
-        {
-            return View(await _context.FormIO.ToListAsync());
-        }
-
-        // GET: Identity/Admin/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var formIO = await _context.FormIO
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (formIO == null)
-            {
-                return NotFound();
-            }
-
-            return View(formIO);
-        }
-
-        // GET: Identity/Admin/Create
-        public IActionResult Create()
+        public  IActionResult Index()
         {
             return View();
         }
 
-        // POST: Identity/Admin/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,CreatedBy,ModifiedBy,CreatedUtc,ModifiedUtc,VersionId,Latest,FormFields")] FormIO formIO)
+
+
+        public IActionResult AddForm()
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(formIO);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(formIO);
+
+            return View();
         }
 
-        // GET: Identity/Admin/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var formIO = await _context.FormIO.FindAsync(id);
-            if (formIO == null)
-            {
-                return NotFound();
-            }
-            return View(formIO);
-        }
-
-        // POST: Identity/Admin/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,CreatedBy,ModifiedBy,CreatedUtc,ModifiedUtc,VersionId,Latest,FormFields")] FormIO formIO)
+        public async Task<IActionResult> AddForm(FormIO form)
         {
-            if (id != formIO.Id)
-            {
-                return NotFound();
-            }
+            var now = DateTime.UtcNow;
+            form.CreatedBy = User.Identity?.Name ?? "System";
+            form.ModifiedBy = User.Identity?.Name ?? "System";
+            form.FormFields = form.FormFields;
+            form.CreatedUtc = now;
+            form.ModifiedUtc = now;
+            form.VersionId = Guid.NewGuid(); // generate a new GUID for version
+            form.Latest = true;              // mark this as the latest version
+
+       
 
             if (ModelState.IsValid)
             {
-                try
-                {
-                    _context.Update(formIO);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!FormIOExists(formIO.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
+               await _dapper.AddFormsTable(form);
+                 return RedirectToAction(nameof(Index));
             }
-            return View(formIO);
-        }
-
-        // GET: Identity/Admin/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var formIO = await _context.FormIO
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (formIO == null)
-            {
-                return NotFound();
-            }
-
-            return View(formIO);
-        }
-
-        // POST: Identity/Admin/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var formIO = await _context.FormIO.FindAsync(id);
-            if (formIO != null)
-            {
-                _context.FormIO.Remove(formIO);
-            }
-
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-
-        private bool FormIOExists(int id)
-        {
-            return _context.FormIO.Any(e => e.Id == id);
-        }
+            return View(form);
+        }   
     }
 }

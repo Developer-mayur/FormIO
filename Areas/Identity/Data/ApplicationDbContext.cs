@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using FormIOProject.Models;
+using FormIOProject.Areas.Identity.Model;
 
 namespace FormIOProject.Areas.Identity.Data
 {

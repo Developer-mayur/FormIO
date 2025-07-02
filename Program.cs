@@ -1,8 +1,9 @@
 using FormIOProject.Areas.Identity.Data;
+using FormIOProject.Areas.Identity.Services;
 using FormIOProject.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-
+using FormIOProject.Areas.Identity.Implementation;
 var builder = WebApplication.CreateBuilder(args);
 
 // Connection string
@@ -30,6 +31,7 @@ builder.Services.ConfigureApplicationCookie(options =>
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
+builder.Services.AddTransient<IDapper,DapperServices>();
 
 var app = builder.Build();
 

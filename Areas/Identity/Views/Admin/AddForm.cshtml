@@ -1,4 +1,5 @@
-﻿@using FormIOProject.Models
+﻿@using FormIOProject.Areas.Identity.Model
+@using FormIOProject.Models
 @* @model Formio.Models.Forms *@
 @* @model Formio.Models.Forms *@
 
@@ -8,7 +9,7 @@
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
-<script src="https://cdn.form.io/js/formio.embed.js"></script>
+
 
 
 <div class="container mt-5">
@@ -30,7 +31,7 @@
 </div>
 
 <script>
-    let currentSchema = {};
+    
 
     // Initialize Form.io builder
     Formio.builder(document.getElementById('FormBuilder'), {}).then(function (builder) {
@@ -51,9 +52,9 @@
             alert("Please enter a form title.");
             return;
         }
-
+   
         $.ajax({
-            url: '/Form/Builder',   // Your controller action URL
+            url: '/Identity/Admin/AddForm',   // Your controller action URL
             type: 'POST',
             data: {
                 Title: title,
@@ -70,3 +71,4 @@
         });
     });
 </script>
+<script src="https://cdn.form.io/js/formio.embed.js"></script>
