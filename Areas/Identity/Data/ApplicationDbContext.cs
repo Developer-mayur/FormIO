@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using FormIOProject.Models;
 
-namespace FormIOProject.Data
+namespace FormIOProject.Areas.Identity.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
@@ -13,7 +13,7 @@ namespace FormIOProject.Data
 
         // DbSets for your other entities
     
-public DbSet<FormIOProject.Models.FormIO> FormIO { get; set; } = default!;
+public DbSet<FormIO> FormIO { get; set; } = default!;
 
 
     }

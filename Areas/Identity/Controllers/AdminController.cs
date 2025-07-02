@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using FormIOProject.Data;
 using FormIOProject.Models;
+using FormIOProject.Areas.Identity.Data;
 
 namespace FormIOProject.Areas.Identity.Controllers
 {

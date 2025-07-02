@@ -409,8 +409,8 @@ C:\Users\admin\source\repos\FormIOProject\FormIOProject\obj\Debug\net9.0\ref\For
 C:\Users\admin\source\repos\FormIOProject\FormIOProject\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\admin\Desktop\FormIO\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\admin\Desktop\FormIO\bin\Debug\net9.0\appsettings.json
-C:\Users\admin\Desktop\FormIO\bin\Debug\net9.0\FormIOProject.staticwebassets.endpoints.json
 C:\Users\admin\Desktop\FormIO\bin\Debug\net9.0\FormIOProject.staticwebassets.runtime.json
+C:\Users\admin\Desktop\FormIO\bin\Debug\net9.0\FormIOProject.staticwebassets.endpoints.json
 C:\Users\admin\Desktop\FormIO\bin\Debug\net9.0\FormIOProject.exe
 C:\Users\admin\Desktop\FormIO\bin\Debug\net9.0\FormIOProject.deps.json
 C:\Users\admin\Desktop\FormIO\bin\Debug\net9.0\FormIOProject.runtimeconfig.json
@@ -810,10 +810,10 @@ C:\Users\admin\Desktop\FormIO\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\admin\Desktop\FormIO\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\admin\Desktop\FormIO\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\admin\Desktop\FormIO\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\admin\Desktop\FormIO\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\admin\Desktop\FormIO\obj\Debug\net9.0\FormIOPr.F5D8AF82.Up2Date
 C:\Users\admin\Desktop\FormIO\obj\Debug\net9.0\FormIOProject.dll
 C:\Users\admin\Desktop\FormIO\obj\Debug\net9.0\refint\FormIOProject.dll
 C:\Users\admin\Desktop\FormIO\obj\Debug\net9.0\FormIOProject.pdb
 C:\Users\admin\Desktop\FormIO\obj\Debug\net9.0\FormIOProject.genruntimeconfig.cache
 C:\Users\admin\Desktop\FormIO\obj\Debug\net9.0\ref\FormIOProject.dll
+C:\Users\admin\Desktop\FormIO\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

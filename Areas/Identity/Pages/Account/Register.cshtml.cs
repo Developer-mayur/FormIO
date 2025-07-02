@@ -51,6 +51,11 @@ namespace FormIOProject.Areas.Identity.Pages.Account
         public class InputModel
         {
             [Required]
+            [Display(Name = "Full Name")]
+            public string FullName { get; set; }
+
+
+            [Required]
             [EmailAddress]
             [Display(Name = "Email")]
             public string Email { get; set; }
@@ -70,16 +75,16 @@ namespace FormIOProject.Areas.Identity.Pages.Account
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
         }
-
+     //   public List<SelectListItem> Roles { get; set; }
         public async Task OnGetAsync(string returnUrl = null)
         {
             ReturnUrl = returnUrl;
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
-            Roles = _roleManager.Roles.Select(r => new SelectListItem
-            {
-                Value = r.Name,
-                Text = r.Name
-            }).ToList();
+            Roles = new List<SelectListItem>
+{
+                new SelectListItem { Value = "Admin", Text = "Admin" },
+                new SelectListItem { Value = "User", Text = "User" },
+};
         }
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
@@ -90,7 +95,7 @@ namespace FormIOProject.Areas.Identity.Pages.Account
             if (ModelState.IsValid)
             {
                 var user = CreateUser();
-
+                user.FullName = Input.FullName;
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
                 var result = await _userManager.CreateAsync(user, Input.Password);
