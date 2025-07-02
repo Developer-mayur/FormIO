@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FormIOProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32e81cfeb08c4566078078031256ec012700de0e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27c11247491a1d1a5950b318991ffdc8403ca2d8")]
 [assembly: System.Reflection.AssemblyProductAttribute("FormIOProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FormIOProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

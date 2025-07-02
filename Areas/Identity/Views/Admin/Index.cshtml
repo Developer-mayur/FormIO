@@ -5,9 +5,7 @@
     // Layout = "~/Views/Shared/_LoginPartial.cshtml";
 }
 
-<h1>Index</h1>
-@* 
-<p>
+@* <p>
     <a asp-action="Create">Create New</a>
 </p>
 <table class="table">
@@ -74,52 +72,81 @@
             </td>
         </tr>
 }
-    </tbody>
+    </tbody> *
 </table> *@
 @* @{
     ViewData["Title"] = "Form.io Integration";
-} *@
+} *@ 
 
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <title>Form.io Example</title>
+@using FormIOProject.Models
+@* @model Formio.Models.Forms *@
+@* @model Formio.Models.Forms *@
+ 
+@{
+    ViewData["Title"] = "Form Builder";
+}
+ 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+<script src="https://cdn.form.io/js/formio.embed.js"></script>
+ 
+ 
+<div class="container mt-5">
+<h3 class="mb-4 text-primary">Design Your Form</h3>
+ 
+    <form id="saveForm" method="post" action="/Form/Builder" class="mt-4">
+ 
+        <div class="form-group mb-4">
+<input type="text" id="title" name="Title" placeholder="Enter form title" class="form-control" />
+</div>
+ 
+        <div id="FormBuilder" class="border rounded bg-light p-3"></div>
+ 
+        <input type="hidden" name="jsonSchema" id="jsonSchema" class="form-control" />
+<button class="btn btn-success btn-lg" type="submit">
+<i class="bi bi-save"></i> Save Form
+</button>
+</form>
+</div>
+ 
+<script>
+    let currentSchema = {};
 
-    <!-- Bootstrap CSS and Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+    // Initialize Form.io builder
+    Formio.builder(document.getElementById('FormBuilder'), {}).then(function (builder) {
+        builder.on('change', () => {
+            currentSchema = builder.schema;
+        });
+    });
 
-    <!-- Form.io JS -->
-    <script src="https://cdn.form.io/js/formio.embed.js"></script>
+    // Handle form submit via AJAX
+    $('#saveForm').on('submit', function (e) {
+        e.preventDefault(); // Prevent default form submit
 
-    <style>
-        body {
-            padding: 2rem;
+        const title = $('#title').val();
+        const jsonSchema = JSON.stringify(currentSchema);
+
+        // Optional: Validate title
+        if (!title.trim()) {
+            alert("Please enter a form title.");
+            return;
         }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h2 class="mb-4">Form.io Integration Example</h2>
 
-        <!-- The Form will be rendered here -->
-        <div id="formio"></div>
-    </div>
-
-    <script>
-        // Load your form from Form.io
-        Formio.createForm(document.getElementById('formio'), 'https://examples.form.io/example')
-            .then(function (form) {
-                // Form loaded and rendered
-                form.on('submit', function (submission) {
-                    console.log('Form submitted!', submission);
-                    alert('Form submitted successfully!');
-                });
-            })
-            .catch(function (err) {
-                console.error('Error loading form:', err);
-            });
-    </script>
-</body>
-</html>
+        $.ajax({
+            url: '/Form/Builder',   // Your controller action URL
+            type: 'POST',
+            data: {
+                Title: title,
+                jsonSchema: jsonSchema
+            },
+            success: function (response) {
+                alert("Form saved successfully!");
+                // Optionally reset form or redirect
+            },
+            error: function (xhr, status, error) {
+                alert("Failed to save form: " + error);
+                console.error(xhr.responseText);
+            }
+        });
+    });
+</script>

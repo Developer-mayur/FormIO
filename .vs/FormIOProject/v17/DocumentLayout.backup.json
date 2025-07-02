@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\FormIO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4BA57674-4D2B-489C-B5A5-6A6D236A882A}|FormIOProject.csproj|c:\\users\\admin\\desktop\\formio\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BA57674-4D2B-489C-B5A5-6A6D236A882A}|FormIOProject.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4BA57674-4D2B-489C-B5A5-6A6D236A882A}|FormIOProject.csproj|c:\\users\\admin\\desktop\\formio\\areas\\identity\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BA57674-4D2B-489C-B5A5-6A6D236A882A}|FormIOProject.csproj|solutionrelative:areas\\identity\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4BA57674-4D2B-489C-B5A5-6A6D236A882A}|FormIOProject.csproj|c:\\users\\admin\\desktop\\formio\\areas\\identity\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4BA57674-4D2B-489C-B5A5-6A6D236A882A}|FormIOProject.csproj|solutionrelative:areas\\identity\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4BA57674-4D2B-489C-B5A5-6A6D236A882A}|FormIOProject.csproj|c:\\users\\admin\\desktop\\formio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BA57674-4D2B-489C-B5A5-6A6D236A882A}|FormIOProject.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4BA57674-4D2B-489C-B5A5-6A6D236A882A}|FormIOProject.csproj|c:\\users\\admin\\desktop\\formio\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4BA57674-4D2B-489C-B5A5-6A6D236A882A}|FormIOProject.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BA57674-4D2B-489C-B5A5-6A6D236A882A}|FormIOProject.csproj|c:\\users\\admin\\desktop\\formio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4BA57674-4D2B-489C-B5A5-6A6D236A882A}|FormIOProject.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4BA57674-4D2B-489C-B5A5-6A6D236A882A}|FormIOProject.csproj|c:\\users\\admin\\desktop\\formio\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BA57674-4D2B-489C-B5A5-6A6D236A882A}|FormIOProject.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BA57674-4D2B-489C-B5A5-6A6D236A882A}|FormIOProject.csproj|c:\\users\\admin\\desktop\\formio\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BA57674-4D2B-489C-B5A5-6A6D236A882A}|FormIOProject.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4BA57674-4D2B-489C-B5A5-6A6D236A882A}|FormIOProject.csproj|c:\\users\\admin\\desktop\\formio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BA57674-4D2B-489C-B5A5-6A6D236A882A}|FormIOProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BA57674-4D2B-489C-B5A5-6A6D236A882A}|FormIOProject.csproj|c:\\users\\admin\\desktop\\formio\\areas\\identity\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BA57674-4D2B-489C-B5A5-6A6D236A882A}|FormIOProject.csproj|solutionrelative:areas\\identity\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4BA57674-4D2B-489C-B5A5-6A6D236A882A}|FormIOProject.csproj|c:\\users\\admin\\desktop\\formio\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BA57674-4D2B-489C-B5A5-6A6D236A882A}|FormIOProject.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4BA57674-4D2B-489C-B5A5-6A6D236A882A}|FormIOProject.csproj|c:\\users\\admin\\desktop\\formio\\areas\\identity\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -142,20 +150,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\FormIO\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\FormIO\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T06:41:24.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\FormIO\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\FormIO\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T06:41:13.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\FormIO\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\admin\\Desktop\\FormIO\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-02T06:28:23.484Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\FormIO\\Areas\\Identity\\Views\\Admin\\Create.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Views\\Admin\\Create.cshtml",
@@ -163,8 +197,7 @@
               "RelativeToolTip": "Areas\\Identity\\Views\\Admin\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-02T05:26:15.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T05:26:15.549Z"
             },
             {
               "$type": "Document",
@@ -174,27 +207,27 @@
               "RelativeDocumentMoniker": "Areas\\Identity\\Views\\Admin\\Index.cshtml",
               "ToolTip": "C:\\Users\\admin\\Desktop\\FormIO\\Areas\\Identity\\Views\\Admin\\Index.cshtml",
               "RelativeToolTip": "Areas\\Identity\\Views\\Admin\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAiwJYAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-02T05:23:10.058Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\FormIO\\Areas\\Identity\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Controllers\\AdminController.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\FormIO\\Areas\\Identity\\Controllers\\AdminController.cs",
               "RelativeToolTip": "Areas\\Identity\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAMwAwAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T05:22:43.333Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Logout.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\FormIO\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
@@ -202,25 +235,24 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T05:17:08.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T05:17:08.685Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\FormIO\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\FormIO\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAAAIQAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAswIMAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T14:32:01.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\FormIO\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -232,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Logout.cshtml",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\FormIO\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
@@ -240,12 +272,11 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T14:30:32.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T14:30:32.113Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\FormIO\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
@@ -258,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "00000000000000_CreateIdentitySchema.Designer.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\FormIO\\Areas\\Identity\\Data\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Data\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
@@ -266,12 +297,11 @@
               "RelativeToolTip": "Areas\\Identity\\Data\\Migrations\\00000000000000_CreateIdentitySchema.Designer.cs",
               "ViewState": "AgIAANUAAAAAAAAAAAAtwOIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T14:27:53.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T14:27:53.671Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\FormIO\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Data\\ApplicationDbContext.cs",
@@ -279,12 +309,11 @@
               "RelativeToolTip": "Areas\\Identity\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwA4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T14:20:24.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T14:20:24.429Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\FormIO\\Areas\\Identity\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -292,12 +321,11 @@
               "RelativeToolTip": "Areas\\Identity\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "ViewState": "AgIAAB4BAAAAAAAAAAD4vzMBAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T14:20:16.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T14:20:16.789Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\FormIO\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
@@ -305,12 +333,11 @@
               "RelativeToolTip": "Models\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T14:20:00.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T14:20:00.606Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\FormIO\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -318,12 +345,11 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAAAQwFMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T14:16:12.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T14:16:12.061Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\FormIO\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -331,18 +357,17 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAACSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T14:14:17.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T14:14:17.463Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\FormIO\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\FormIO\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T14:13:47.517Z",
               "EditorCaption": ""
